@@ -1,3 +1,3 @@
-require("take.core")
-require("take.lazy")
+require("tabo-syu.core")
+require("tabo-syu.lazy")
 
