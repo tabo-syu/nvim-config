@@ -13,5 +13,9 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("tabo-syu.plugins")
+require("lazy").setup("tabo-syu.plugins", {
+  change_detection = {
+    notify = false,
+  },
+})
 
