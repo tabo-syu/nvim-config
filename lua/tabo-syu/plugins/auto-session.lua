@@ -5,7 +5,7 @@ return {
 
     auto_session.setup({
       auto_restore_enabled = false,
-      auto_session_suppress_dirs = { "~/", "~/.config/nvim"},
+      auto_session_suppress_dirs = { "~/", "~/.config/nvim" },
     })
 
     local keymap = vim.keymap
@@ -14,4 +14,3 @@ return {
     keymap.set("n", "<leader>ws", "<cmd>SessionSave<CR>", { desc = "Save session for auto session root dir" })
   end
 }
-

@@ -30,7 +30,7 @@ return {
         },
       },
       git = {
-         ignore = false,
+        ignore = false,
       },
     })
 
@@ -43,4 +43,3 @@ return {
     keymap.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh file explorer" })
   end
 }
-
